@@ -38,13 +38,12 @@ public class MainApp {
          System.out.println();
       }
 
-      Car car = context.getBean(Car.class);
-      User user = context.getBean(User.class);
-
 
       Car car1 = new Car("BMW",12);
       Car car2 = new Car("Audi",10);
       Car car3 = new Car("Tesla",5);
+
+
 
 
 
@@ -61,8 +60,6 @@ public class MainApp {
       userService.add(user1);
       userService.add(user2);
       userService.add(user3);
-
-      List<User> usersList = userService.listUsers();
 
 
 
