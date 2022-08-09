@@ -61,7 +61,8 @@ public class MainApp {
       userService.add(user2);
       userService.add(user3);
 
-      userService.getUserCar("Audi",10);
+
+      System.out.println(userService.getUserByCar("Audi",10));
 
 
         context.close();
